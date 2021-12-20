@@ -1,15 +1,15 @@
 it('Login Test Normal', () => {
     it('Should be Can Login', () => {
-    cy.visit('https://www.saucedemo.com/')
-    cy.get('#user-name').type('standard_user')
+    cy.visit('http://jip.polinema.ac.id/ojs3/index.php/jip/login')
+    cy.get('#username').type('standard_user')
     cy.get('#password').type('secret_sauce')
-    cy.get('#login-button').click()
+    cy.get('#submit').click()
 
-    cy.get('#react-burger-menu-btn').click()
-    cy.get('#logout_sidebar_link').click()
+    //cy.get('#react-burger-menu-btn').click()
+    //cy.get('#logout_sidebar_link').click()
     })
 })
-
+/*
 it('Log In Scenario - locked_out_user/secret_sauce', () => {
     it('Should be Locked User', () => {
     cy.visit('https://www.saucedemo.com/')
@@ -49,7 +49,8 @@ it('Log In Scenario - wihout username/password', () => {
     cy.get('#password').type(' ')
     cy.get('#login-button').click()
     })
-})
+})*/
+
 /*describe('Login Tests', function () {
     it('Successfull login', function () {
         cy.visit('https://www.saucedemo.com/')

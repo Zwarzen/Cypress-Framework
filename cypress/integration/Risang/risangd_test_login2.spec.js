@@ -1,4 +1,4 @@
-describe('Login Test SauceDemo', () => {
+/*describe('Login Test SauceDemo', () => {
     it('Visit login page and test with standard user', () => {
         cy.visit('https://www.saucedemo.com/')
         cy.get('#user-name').type('standard_user').should('have.value', 'standard_user')
@@ -33,7 +33,7 @@ describe('Login Test SauceDemo', () => {
         cy.get('#logout_sidebar_link').click()
         cy.url().should('include', '')
     });
-});
+});*/
 
 /*describe('Log In Scenario - standard_user/secret_sauce', function(){
     it('Log in', function (){

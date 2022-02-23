@@ -10,7 +10,7 @@ it('Login Test Normal', () => {
     })
 })
 
-it('Log In Scenario - locked_out_user/secret_sauce', () => {
+it('Log In Scenario - locked_out_user/username salah', () => {
     it('Should be Locked User', () => {
         cy.visit('http://jip.polinema.ac.id/ojs3/index.php/jip/login')
         cy.get('#username').type('risang22')
